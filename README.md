@@ -20,8 +20,7 @@ service-worker通用框架
  支持    ： TBS,android4.44+,
  不支持  ： ios（[下个五年计划 2020](https://trac.webkit.org/wiki/FiveYearPlanFall2015)）
 
-
-
+- 页面需为https
 
 
 > 使用方法   
