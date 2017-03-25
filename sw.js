@@ -56,7 +56,7 @@ self.addEventListener("unhandledrejection",function(event){
    //serrorReport(event.reason,event.filename,"90010009");
 })
 
-//self.importScripts("/sw/tools.js","/sw/loader.js","/sw/gc.js");
+self.importScripts("/sw/tools.js","/sw/loader.js","/sw/gc.js");
 
 
 //install
