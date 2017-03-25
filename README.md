@@ -8,6 +8,11 @@ service-worker通用框架_mysw.js
 - [x] 针对高流量，提前下载资源
 - [x] 可做离线包
 
+> 使用方法   
+ 
+- [x] 页面中引入sw-js.shtml文件，设置stopSw=fasle;
+- [x] 配置mysw.js中相关策略
+
 > 使用说明
 
 - [x] pc端浏览器支持情况
@@ -31,11 +36,6 @@ service-worker通用框架_mysw.js
 
 - [x] 页面需支持https
 
-
-> 使用方法   
- 
-- [x] 页面中引入sw-js.shtml文件，设置stopSw=fasle;
-- [x] 配置mysw.js中相关策略
 
 > 文件介绍   
 
