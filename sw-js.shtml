@@ -12,7 +12,7 @@ if(navigator.serviceWorker){
         });
     }else{
          window.addEventListener('load', function() {//首次访问 避免影响
-            navigator.serviceWorker.register('/sw.js').then(function(registration){
+            navigator.serviceWorker.register('/mysw.js').then(function(registration){
                       //不用手动刷新页面,会触发新文件的fetch事件，比原install,active多一步介入
                       //原刷新后，需要下次才生效，如此刷新及可生效
                        registration.update();
